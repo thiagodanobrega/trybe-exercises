@@ -1,4 +1,4 @@
-#  <img height="100px" weidth="100px" src="https://go.betrybe.com/hubfs/logo%20cortada%20branca.png">
+#  Trybe <img height="30px" weidth="30px" src="https://pbs.twimg.com/profile_images/1412038025098444800/Kx6Wj0hl.jpg">
 
 
 Neste repositório constam todas as atividades de aprendizagem desenvolvidas por _[Thiago Nóbrega](https://www.linkedin.com/in/thiagodanobrega/)_ enquanto estudava na [Trybe](https://www.betrybe.com/) :rocket:
