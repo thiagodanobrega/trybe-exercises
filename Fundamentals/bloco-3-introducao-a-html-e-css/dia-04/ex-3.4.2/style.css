@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+html {
+  font-family: 'Lato', sans-serif;
+}
+header {
+  background-color: #dd2739;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+body {
+  background-color: rgb(241, 241, 241);
+}
+.menu {
+  display: flex;
+}
+
+.menu li {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+.menu a {
+  color: white;
+}
+#logo {
+  color: white;
+}
+figure {
+  text-align: center;
+  margin-top: 50px;
+}
+.container {
+  margin: auto;
+  max-width: 800px;
+  min-width: 320px;
+  padding: 20px;
+  flex-grow: 1;
+}
+.post {
+  width: 70%;
+  display: inline-block;
+}
+.content > p {
+  text-align: justify;
+  margin: 30px;
+  line-height: 1.5em;
+}
+section h2 {
+  margin: 25px;
+  font-weight: normal;
+  font-size: 1.5em;
+}
+.category {
+  text-align: center;
+  margin-top: 20px;
+}
+.title {
+  font-size: 2em;
+}
+.description {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+.container img {
+  width: 90%;
+  text-align: center;
+}
+figcaption {
+  font-size: 0.7em;
+}
+span {
+  font-size: 0.6rem;
+}
+footer {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  background-color: #dd2739;
+}
+.content {
+  justify-content: center;
+}
+
+.references > p {
+  margin: 25px;
+  font-size: 0.9rem;
+  text-align: justify;
+}
