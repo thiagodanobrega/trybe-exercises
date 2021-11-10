@@ -44,7 +44,7 @@ for (let i = 1; i <= n; i += 2) {
   console.log(aux)
 }
 
-// Bônus
+// Bônus ===================================
 
 // 5 - questão
 let n = 7
