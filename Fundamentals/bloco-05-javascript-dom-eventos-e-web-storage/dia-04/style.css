@@ -1,0 +1,85 @@
+/* Reset */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+header {
+padding: 15px;
+background-color: rgb(246,247,250);
+position: fixed;
+top: 0;
+width: 100%;
+border-bottom:1px solid rgba(0, 0, 0, 0.137) ;
+
+}
+.preferences{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px; align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+#color{
+  width: 50px;
+  height: 24px;
+}
+/* Cores do background */
+.themes {
+  display: flex;
+  right: 20px;
+  top: 0px;
+  gap: 5px;
+  align-items: center; 
+  float: right;
+}
+.themes span {
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.144);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .3s;
+}
+.themes span:hover{
+  border: 2px solid rgb(46, 44, 44);
+}
+.themes .theme1{
+  background-color: rgb(253,248,242);
+}
+.themes .theme2{
+  background-color: rgb(251,244,233);
+}
+.themes .theme3{
+  background-color: rgb(231,229,230);
+}
+.themes .theme4{
+  background-color: rgb(25,23,24);
+}
+.themes .theme5{
+  background-color: rgb(244,195,178);
+}
+
+/*Conteúdo Principal*/
+h1{
+  font-size: 3em;
+}
+h4{
+  font-weight: normal;
+}
+#container{
+  width: min(90vw, 600px);
+  margin: auto;
+  padding-top: 120px;
+  font-size: 16px;
+  padding-bottom: 80px;
+  margin-top: 20px;
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content h1, h2, p {
+  margin-bottom: 0.5em;
+}
+

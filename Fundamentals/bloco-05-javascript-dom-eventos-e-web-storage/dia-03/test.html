@@ -1,0 +1,23 @@
+<html>
+  <body>
+    <section>
+      <ul id='list'>
+        <li class='day'>a</li>
+        <li class='day holiday'>b</li>
+        <li class='day'>c</li>
+        <li class='day holiday'>d</li>
+        <li class='day'>e</li>
+      </ul>
+    </section>
+    <script>
+      const ul = document.querySelector('#list').children
+      const days = Array.from(ul)
+      
+      if (days.classList.contains('day')){
+        console.log(days)
+      }
+
+    
+    </script>
+  </body>
+</html>

@@ -1,4 +1,5 @@
 // 1 - questão
+/*
 let n = 5
 for (let i = 0; i < n; i++) {
   let aux = ''
@@ -64,7 +65,7 @@ for (let i = 1; i <= n; i += 2) {
 }
 
 // 6 - questão
-let num = 5
+let num = 6
 let primo = true
 if (num < 2) {
   primo = false
@@ -80,3 +81,4 @@ if (primo == true) {
 } else {
   console.log('não é primo')
 }
+*/

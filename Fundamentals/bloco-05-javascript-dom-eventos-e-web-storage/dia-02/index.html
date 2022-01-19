@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      // 1 e 10- questão
+      let title = document.createElement('h1');
+      title.classList = 'title';
+      title.innerText = 'Exercício 5.2 - JavaScript DOM';
+      let body = document.querySelector('body')
+      body.appendChild(title);
+
+      // 2 - questão
+      let main = document.createElement('main');
+      main.classList = 'main-content';
+      body.appendChild(main);
+      
+
+      // 3 - questão
+      let sectionCenter = document.createElement('section');
+      sectionCenter.classList = 'center-content';
+      main.appendChild(sectionCenter);
+
+      // 4 - questão
+      let p = document.createElement('p');
+      p.innerText = 'Adicionando texto nesse parágrafo'
+      sectionCenter.appendChild(p);
+
+      // 5 - questão
+      let sectionLeft = document.createElement('section');
+      sectionLeft.classList = 'Left-content';
+      main.appendChild(sectionLeft);
+
+      // 6 - questão
+      let sectionRight = document.createElement('section');
+      sectionRight.classList = 'Right-content';
+      main.appendChild(sectionRight);
+
+      // 7 - questão
+      let image = document.createElement('img');
+      image.setAttribute('src', 'https://picsum.photos/200');
+      image.classList = ' small-image';
+      sectionLeft.appendChild(image);
+
+      // 8 - questão
+      let list = document.createElement('ul');
+      let arr = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+      for (let i = 0; i < arr.length; i++){
+        let listItems = document.createElement('li');
+        listItems.innerText = arr[i];
+        list.appendChild(listItems);
+        sectionRight.appendChild(list);
+      } 
+
+      // 9 e 11- questão
+      for (let i = 1; i <= 3; i++){
+        let subtitle = document.createElement('h3');
+        main.appendChild(subtitle);
+        subtitle.classList = 'description'
+      }
+      
+      // 12 - questão
+      main.removeChild(sectionLeft);
+
+      // 13 - questão
+      sectionRight.style.marginRight = 'auto';
+
+      // 14 - questão
+      sectionCenter.parentElement.style.background = 'green'
+
+      //15 - questão
+      list.lastChild.remove()
+      list.lastChild.remove()
+      
+      
+    </script>
+  </body>
+</html>
