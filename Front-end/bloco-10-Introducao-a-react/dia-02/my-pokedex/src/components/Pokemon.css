@@ -1,0 +1,15 @@
+.card-pokemon {
+  background-color: RGB(82, 92, 170);
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #fff;
+  border-radius: 5px;
+}
+
+.card-pokemon p {
+  line-height: 1.5rem;
+  text-align: center;
+  color: #fff;
+}
